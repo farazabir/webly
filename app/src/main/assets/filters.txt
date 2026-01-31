@@ -1,0 +1,120 @@
+! Webly Minimal Ad Filter List
+! A curated lightweight filter list for essential ad-blocking
+! Based on EasyList syntax, optimized for performance
+! Last updated: 2026-01-30
+
+! === Common Ad Domains ===
+||doubleclick.net^
+||googleadservices.com^
+||googlesyndication.com^
+||google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||facebook.com/tr^
+||facebook.net/en_us/fbevents.js
+||connect.facebook.net^
+||ads.twitter.com^
+||analytics.twitter.com^
+||ads.linkedin.com^
+||ads.reddit.com^
+||ads.youtube.com^
+||pagead2.googlesyndication.com^
+||adservice.google.*/^
+||amazon-adsystem.com^
+||advertising.amazon.com^
+
+! === Ad Servers ===
+||ad.doubleclick.net^
+||ads.yahoo.com^
+||adserver.yahoo.com^
+||static.ads-twitter.com^
+||pubads.g.doubleclick.net^
+||tpc.googlesyndication.com^
+||pagead.googlesyndication.com^
+||pagead.l.google.com^
+||partner.googleadservices.com^
+
+! === Analytics and Tracking ===
+||stats.g.doubleclick.net^
+||analytics.google.com^
+||ssl.google-analytics.com^
+||www.google-analytics.com^
+||stats.wp.com^
+||pixel.wp.com^
+||b.scorecardresearch.com^
+||sb.scorecardresearch.com^
+||quantserve.com^
+||2mdn.net^
+
+! === Popular Ad Networks ===
+||adnxs.com^
+||advertising.com^
+||advertising.apple.com^
+||iadsdk.apple.com^
+||openx.net^
+||rubiconproject.com^
+||pubmatic.com^
+||contextweb.com^
+||adsrvr.org^
+||criteo.com^
+||criteo.net^
+||outbrain.com^
+||taboola.com^
+
+! === Mobile App Analytics ===
+||app-measurement.com^
+||crashlytics.com^
+||firebase-settings.crashlytics.com^
+||firebaselogging.googleapis.com^
+||firebaseinstallations.googleapis.com^
+
+! === Social Media Widgets (Privacy) ===
+||platform.twitter.com/widgets^
+||connect.facebook.net/*/sdk.js
+||platform.linkedin.com/in.js
+||apis.google.com/js/platform.js
+
+! === Common Ad Patterns ===
+/ads/*
+/adv/*
+/banner*
+/banners/*
+/advertisement*
+/_ads/*
+/ad.php
+/ads.js
+/advertisement.js
+/advertising.js
+/ad-banner*
+/ad_banner*
+
+! === Third-Party Trackers ===
+||hotjar.com^
+||mouseflow.com^
+||luckyorange.com^
+||inspectlet.com^
+||clicktale.net^
+||crazyegg.com^
+
+! === Element Hiding Rules (Cosmetic Filtering) ===
+##.advertisement
+##.ad-banner
+##.ad-container
+##.ad-placeholder
+##.ads
+##.adsbygoogle
+##div[id^="ad-"]
+##div[class^="ad-"]
+##div[id^="ads-"]
+##div[class^="ads-"]
+
+! === Exceptions (Whitelist) ===
+! Allow Reddit's own media CDN
+@@||i.redd.it^
+@@||v.redd.it^
+! Allow YouTube video content
+@@||googlevideo.com^
+@@||ytimg.com^
+! Allow Google Fonts
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^

@@ -6,7 +6,9 @@
 
 **Webly** is a modern, lightweight, and privacy-focused web browser built for Android using Kotlin and Jetpack Compose. Experience fast browsing with built-in ad-blocking, reader mode, and comprehensive privacy features.
 
-![Webly Browser Screenshot](docs/images/screenshot-main.png)
+![Webly Browser Screenshot](docs/images/img1.jpg)
+![Webly Browser Screenshot](docs/images/img2.jpg)
+
 
 ## ✨ Key Features
 
